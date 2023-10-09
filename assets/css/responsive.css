@@ -1,0 +1,286 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    a.back.move {
+        transform: unset;
+        margin: 40px 0 20px;
+    }
+    .Account_wrp {
+        margin-top: 15px;
+    }
+    
+    .Account_wrp .title {
+        left: 85px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    a.back.move {
+        transform: unset;
+        margin: 40px 0 20px;
+    }
+    .payment_wrp {
+        padding: 50px 30px;
+    }
+    
+    .payment_wrp .row {
+        gap: 20px;
+    }
+    
+    .payment_wrp .col-lg-6 {
+        width: 48%;
+    }
+    
+    .payment_left {
+        gap: 40px 0;
+    }
+
+.payment_left h3 {
+}
+    .Payment_form>a.thm_btn {
+        padding: 18px;
+    }
+
+    .Account_wrp {
+        margin-top: 15px;
+        padding: 40px 30px;
+    }
+    
+    .Account_wrp .title {
+        left: 85px;
+    }
+    .Allocate_wallet_blk {
+        padding: 20px;
+        padding-top: 60px;
+    }
+    
+    .Allocate_wallet_blk a {
+        padding: 20px 13px;
+    }
+    
+    .Allocate_wallet_blk h4 {
+        font-size: 20px;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root {
+        --f40: 32px;
+        --f36: 28px;
+        --f30: 26px;
+        --f24: 22px;
+        --f20: 28px;
+        --f18: 16px;
+        --f16: 15px;
+    }
+    .login_content{
+        
+padding: 40px 30px;
+    }
+
+.login_content a {
+    display: block;
+    margin-top: 10px;
+}
+.details_tab table.table {
+    min-width: 800px;
+}
+
+.details_tab table.table.large {
+    min-width: 1080px;
+}
+section.account-details ul {
+    justify-content: center;
+    max-width: 331px;
+    margin-inline: auto;
+}
+
+section.account-details ul li button {
+    font-size: 14px;
+}
+
+.account-details:after {
+    top: 203px;
+}
+
+.Wallet_wrp {
+    padding: 30px 20px;
+}
+.details_tab td a.thm_btn {
+    padding: 12px 20px;
+}
+a.back.move {
+    transform: unset;
+    margin: 40px 0 20px;
+    height: 54px;
+    padding: 18px;
+}
+.payment_wrp .row {
+    gap: 0;
+}
+
+.payment_wrp .col-lg-6 {
+    width: 100%;
+}
+
+.pay_select {
+}
+
+.pay_select a {
+    /* width: 100%; */
+    width: 48%;
+    padding: 15px;
+}
+
+.pay_select a span {
+    font-size: 14px;
+}
+
+.payment_wrp {
+    padding: 40px 20px;
+}
+
+.payment_left {
+    margin-bottom: 50px;
+    gap: 35px;
+}
+
+.Payment_form>a.thm_btn {
+    padding: 18px;
+}
+.Account_wrp {
+    margin-top: 15px;
+    padding: 40px 30px;
+}
+
+.Account_wrp .title {
+    left: 75px;
+    font-size: 24px;
+    top: -74px;
+}
+
+.main_menu {
+    gap: 15px;
+}
+
+.user_blk a {
+    gap: 10px;
+}
+
+.user_blk a i {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-area {
+    scale: .9;
+}
+
+.Account_navs {
+    margin-bottom: 35px;
+}
+
+.Company_tab ul li .flex {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Company_tab ul li .flex div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.Company_tab ul li .flex:after {
+    width: 70%;
+    height: .2px;
+}
+
+.com_img_blk i {
+    width: 50px;
+    height: 50px;
+}
+.owner_tab ul li {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.owner_tab ul li a {
+    margin-left: 65px;
+    margin-top: 8px;
+}
+
+.com_img_blk h5 {
+    margin-bottom: 2px;
+}
+
+.com_img_blk span {
+    font-size: 13px;
+}
+.Allocate_blk {
+    flex-direction: column;
+}
+
+.Allocate_wallet_wrp {
+    flex-direction: column;
+}
+
+.Allocate_wallet_top {
+    flex-direction: column;
+    z-index: 99;
+    height: 440px;
+    z-index: 0;
+}
+
+.Allocate_wallet_blk {
+    padding-top: 20px;
+    margin-top: 52px;
+}
+
+.Allocate_wallet_top span {
+    width: 100%;
+}
+
+.Allocate_wallet_wrp.change {
+    flex-direction: column-reverse;
+}
+
+.transfer {
+    rotate: 90deg;
+}
+
+.Allocate_left {
+    margin-bottom: 30px;
+}
+
+.Allocate_right {
+    padding-left: 55px;
+}
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.pay_select {
+    flex-direction: row;
+}
+}
